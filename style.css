@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #7f5757;
+    overflow: hidden;
+}
+
+.nav-link {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #444;
+}
+
+.navbar-toggler {
+    display: none;
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+    padding: 14px 16px;
+}
+
+.content {
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-link {
+        float: none;
+        text-align: left;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+}
